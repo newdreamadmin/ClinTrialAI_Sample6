@@ -8,9 +8,11 @@ npm command or compilation step.
 FILES
 -----
 index.html       Homepage content and HTML structure
-css/style.css    Theme, responsive layout, animations and transitions
-js/site.js       Mobile menu and scroll interactions
+leadership.html  Leadership, principles, advisory and culture page
+css/style.css    Shared theme, responsive layout, animations and transitions
+js/site.js       Shared mobile menu and scroll interactions
 images/          Logo and favicon
+assets/images/   Optimized editorial photography used by the pages
 web.config       IIS default-document and basic response-header settings
 
 EDITING
@@ -26,12 +28,11 @@ If JavaScript is unavailable, the page content remains readable.
 
 FUTURE PAGES
 ------------
-When approved, additional pages can be added at this same level, for example:
+Leadership is the first additional page. Other pages can be added at this same level, for example:
 
 platform.html
 retention-intelligence.html
 enterprise.html
-about.html
 contact.html
 
 Each future page can reuse css/style.css, js/site.js, images, the header and
