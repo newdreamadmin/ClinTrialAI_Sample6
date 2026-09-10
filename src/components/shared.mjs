@@ -1,6 +1,0 @@
-export const arrow='<span aria-hidden="true" class="arrow">↗</span>';
-export const demo='mailto:info@clintrialai.com?subject=ClinTrialAI%20demo%20request';
-export const button=(label,href=demo,secondary=false)=>`<a class="button ${secondary?'secondary':''}" href="${href}">${label}${arrow}</a>`;
-export const eyebrow=(text)=>`<p class="eyebrow"><span aria-hidden="true"></span>${text}</p>`;
-export const icons={find:'<circle cx="10" cy="10" r="6"/><path d="m15 15 5 5"/>',screen:'<path d="M4 5h16l-6 7v6l-4 2v-8Z"/>',enroll:'<rect x="4" y="3" width="16" height="18" rx="3"/><path d="m8 12 3 3 5-6"/>',randomize:'<path d="M5 3v5q0 4 7 4t7 4v5M12 12q7 0 7-4V3M16 6l3-3 3 3M16 18l3 3 3-3"/>',retain:'<path d="M3 12h4l3-7 4 14 3-7h4"/>',complete:'<circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/>',person:'<circle cx="12" cy="7" r="4"/><path d="M4 22v-3a8 8 0 0 1 16 0v3"/>',team:'<circle cx="9" cy="8" r="3"/><path d="M2 21v-3a7 7 0 0 1 14 0v3M17 5a3 3 0 0 1 0 6m2 3q4 1 4 7"/>',building:'<path d="M4 22V4h16v18M1 22h22M9 22v-5h6v5M8 8h1m6 0h1M8 12h1m6 0h1"/>',document:'<path d="M6 2h9l4 4v16H6ZM14 2v5h5M9 11h7m-7 4h7m-7 4h4"/>'};
-export const icon=(name)=>`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${icons[name]||icons.document}</svg>`;
