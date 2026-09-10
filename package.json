@@ -1,0 +1,1 @@
+{"name":"clintrialai-homepage","version":"1.0.0","private":true,"type":"module","scripts":{"build":"node build.mjs","dev":"node server.mjs","check":"node --check src/main.js && node build.mjs"},"engines":{"node":">=20"}}
