@@ -8,6 +8,7 @@ npm command or compilation step.
 FILES
 -----
 index.html       Homepage content and HTML structure
+about.html       Mission, vision, company story, impact and values page
 leadership.html  Leadership, principles, advisory and culture page
 css/style.css    Shared theme, responsive layout, animations and transitions
 js/site.js       Shared mobile menu and scroll interactions
@@ -28,7 +29,7 @@ If JavaScript is unavailable, the page content remains readable.
 
 FUTURE PAGES
 ------------
-Leadership is the first additional page. Other pages can be added at this same level, for example:
+About and Leadership are the first additional pages. Other pages can be added at this same level, for example:
 
 platform.html
 retention-intelligence.html
