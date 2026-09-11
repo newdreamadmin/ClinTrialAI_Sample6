@@ -522,6 +522,9 @@ h2{font-size:clamp(36px,4vw,60px)}
 /* Homepage polish: consistent type rhythm, wrapping, alignment, and spacing. */
 .home-page{overflow-x:clip}
 .home-page h1,.home-page h2,.home-page h3{text-wrap:balance}
+.home-page .hero .eyebrow{font-size:16px;letter-spacing:.065em}
+.home-page .hero-lede{margin-top:36px}
+@media(min-width:901px){.home-page .hero-lede{max-width:none;white-space:nowrap}}
 .home-page .lifecycle .section-heading h2{font-size:clamp(34px,3.5vw,54px)}
 .home-page .section-heading-label{gap:13px;margin-bottom:28px;color:#167d7b;font-size:clamp(20px,1.85vw,28px);font-weight:600;letter-spacing:-.025em;line-height:1.22}
 .home-page .section-heading-label>span:first-child{width:24px;height:3px;flex:0 0 24px;background:#2aa9a4;border-radius:3px;box-shadow:0 0 14px #2aa9a438}
@@ -531,6 +534,7 @@ h2{font-size:clamp(36px,4vw,60px)}
 .home-page .enterprise-heading>.section-kicker{font-size:12px;font-weight:700}
 .home-page .journey-caption{font-size:12px}
 .home-page .hero-bottom p{font-size:14px}
+@media(max-width:600px){.home-page .hero .eyebrow{font-size:13px}}
 .home-page .problem-impact{padding-bottom:clamp(220px,22vw,330px)}
 .home-page .problem-impact-card{min-height:304px}
 .home-page .problem-impact-card h3{max-width:none}
